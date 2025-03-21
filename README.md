@@ -17,10 +17,11 @@ supports a number of useful operations as methods and operator
 overloads.
 
 For more on the rationale and design of `std::string_view`, see
-[proposal N3762][N3762] or the [cppreference.com page on
-`std::basic_string_view`][basic_string_view].
+[proposal N3762][N3762] or [proposal p3655][p3655] or the
+[cppreference.com page on `std::basic_string_view`][basic_string_view].
 
 [N3762]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3762.html
+[p3655]: https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3655r0.html
 [basic_string_view]: https://en.cppreference.com/w/cpp/string/basic_string_view
 
 However, `std::string_view` does not require the (sub-)string to
